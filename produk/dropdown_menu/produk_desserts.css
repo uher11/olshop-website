@@ -1,0 +1,20 @@
+        body { background-color: #e5e5e5; }
+        .navbar {
+            background: linear-gradient(45deg, #0A2647, #19376D);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+        .navbar-nav .nav-link {
+            color: #F5E8C7 !important;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #1e90ff !important; /* Biru muda untuk efek hover */
+        }
+        .produk-card { transition: transform 0.3s, box-shadow 0.3s; background: #f0f0f0; border-radius: 10px; padding: 15px; }
+        .produk-card:hover { transform: scale(1.05); box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); }
+        .produk-img { height: 200px; object-fit: cover; border-radius: 8px; border: 2px solid #001f3f; }

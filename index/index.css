@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5E8C7;
+}
+.navbar {
+    background: linear-gradient(45deg, #001f3f, #003366); /* Disamakan dengan Tentang Kami */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #ffffff !important;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #1e90ff !important;
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5E8C7;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+}
+.btn-primary {
+    background-color: #16A085;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #F5E8C7;
+}
+.feature-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.carousel-item img {
+    border-radius: 12px;
+    border: 3px solid #D4AF37; /* Warna emas untuk tampilan lebih mewah */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-height: 300px;
+    object-fit: cover;
+}
+.carousel-item img:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+}
+.carousel-item h5 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.carousel-item p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #555;
+}
